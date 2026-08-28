@@ -1,5 +1,5 @@
 body {
- background-image: url(https://share.google/g79VLUGrtkp9tG4uX) ;
+ background-image: url(https://share.google/Qj9Yi7JC4QhnbO56H) ;
  font-family: sans-serif ;
  padding: 15px
 }
@@ -10,6 +10,8 @@ h1 {
 }
 p {
   text-align: center
+ margin-top: 15px ;
+ margin-bottom: 15px ;
 }
 hr {
   height: 2px
@@ -18,8 +20,8 @@ hr {
 }
 form {
   background-color: white;
-  width: 80% 
-  max-width: 500px ; 
+  width: 60% 
+  max-width: 300px ; 
   margin-left: auto ;
   margin-right:auto;
  border-radius: 5px;
@@ -45,7 +47,7 @@ label {
 }
 
 input {
- width: 100px ;
+ width: 200px ;
  padding: 10px ;
  margin-bottom: 15px ;
 }
