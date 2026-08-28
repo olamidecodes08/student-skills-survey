@@ -69,11 +69,12 @@ width: 100%
  padding: 20px ;
  border-radius: 10px ;
   border: 1px ;
+  text-align: left ;
 }
 input[type="checkbox"], input[type="radio"] {
  width: auto ;
 }
 fieldset label {
  display: inline ;
- text-align: left ;
+
 }
