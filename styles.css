@@ -21,7 +21,7 @@ input, select, textarea {
  margin-top: 5px
  box-sizing: border-box ;
  border-radius: 6px ;
- text-align: left ;
+display: flex ;;
 }
 label {
  display: block ;
