@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+  <title>Student Skills Survey</title>
+ </head>
+   <body>
+      <main>
+        <h1>Student Skills Survey</h1>
+        <p>Hello there! Help us learn about your skills, interests and career goals.
+          Please respond with correct and honest answers, thank you!</p>
+        <form>
+         <label for="name">Name</label>
+         <input type="text" id="name" name="name"required>
+         
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age">
+
+          <label for="level">What is your current level of study?</label>
+          <select id="level" name="level">
+          <option value="">Select your current level</option>
+          <option value="100">100 Level</option>
+          <option value="200">200 Level</option>
+          <option value="300">300 Level</option>
+          <option value="400">400 Level</option>
+          <option value="500">500 Level</option>
+          </select>
+          
+          <label for="major">What is your major in the university?</label>
+          <input type="text" id="major" name="major">
+          
+            <label for="interest">What are your areas of interest</label>
+          <input type="text" id="interest" 
+            name="interest" placeholder="e.g Technology, Healthcare">
+
+           <fieldset> 
+          <legend>What skills are you interested in/learning?</legend>
+             <label><input type="checkbox" name="skills" value="data-analysis">Data Analysis</label>
+           <label>
+             <input type="checkbox" name="skills" value="web-development">Web Development</label>
+           <label>
+             <input type="checkbox" name="skills" value="ai-automation">AI Automation</label>
+           <label>
+             <input type="checkbox" name="skills" value="cybersecurity">Cybersecurity</label>
+           <label>
+             <input type="checkbox" name="skills" value="management">Project Management</label>
+           <label>
+             <input type="checkbox" name="skills" value="marketing">Digital Marketing</label>
+           <label>
+             <input type="checkbox" name="skills" value="design">UI/UX Design</label>
+             <label>
+             <input type="checkbox" name="skills" value="other">Other skill (if not listed):</label>
+          
+             <textarea id="other" name="other"></textarea>
+             </fieldset>
+
+          <fieldset>
+          <legend>Are the skills selected above related to your major?</legend>
+           <label><input type="radio" name="relation" value="Yes">Yes</label>
+          <label><input type="radio" name="relation" value="No">No</label>
+          </fieldset>
+          
+          <fieldset>
+           <legend>How confident are you with technology?</legend>
+           <label><input type="radio"  name="confidence" value="beginner">Beginner</label>
+           <label><input type="radio" name="confidence" value="intermediate">Intermediate</label>
+           <label><input type="radio"  name="confidence" value="advanced">Advanced</label>
+           <label><input type="radio"  name="confidence" value="expert">Expert</label>
+          </fieldset>
+          
+          <label for="goals">What are your career goals?</label>
+          <textarea id="goals" name="goals"></textarea>
+
+          <button type="submit">Submit Survey</button>
+        </form>
+      </main>
+   </body>
+</html>
