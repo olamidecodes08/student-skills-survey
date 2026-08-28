@@ -64,6 +64,7 @@ button:hover {
 }
 fieldset {
  display: inline-block ;
+width: 100%
  margin-bottom: 25px ;
  padding: 20px ;
  border-radius: 10px ;
@@ -71,4 +72,7 @@ fieldset {
 }
 input[type="checkbox"], input[type="radio"] {
  width: auto ;
+}
+fieldset label {
+ display: inline
 }
