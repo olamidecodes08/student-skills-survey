@@ -74,5 +74,6 @@ input[type="checkbox"], input[type="radio"] {
  width: auto ;
 }
 fieldset label {
- display: inline
+ display: inline ;
+ text-align: left ;
 }
