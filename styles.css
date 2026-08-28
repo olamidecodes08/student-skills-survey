@@ -72,7 +72,7 @@ width: 100%
 }
 input[type="checkbox"], input[type="radio"] {
  width: auto ;
- display: block ;
+ display: inline-block ;
 }
 fieldset label {
  display: inline ;
