@@ -30,11 +30,14 @@ form {
   border-color: black ;
   color: white ;
   text-color: black ;
-  border: 15px ;
-  height: 9px ;
-  width: 13px ;
+  border: none ;
+  border-radius: 8px
+  width: 100% ;
   padding: 12px ;
   cursor: pointer ;
+  margin-top: 20px ;
+  background-color: blue ;
+  font-size: 16px ;
  }
 button:hover {
  border-color: blue ;
