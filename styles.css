@@ -62,4 +62,6 @@ button:hover {
  border-color: blue ;
  border: 3px ;
 }
-
+fieldset {
+ display: inline-block
+}
