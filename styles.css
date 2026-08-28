@@ -21,7 +21,6 @@ input, select, textarea {
  margin-top: 5px
  box-sizing: border-box ;
  border-radius: 6px ;
-display: inline-block;
 }
 label {
  display: block ;
