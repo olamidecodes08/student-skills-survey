@@ -28,7 +28,8 @@ form {
 }
  button {
   border-color: black ;
-  fill-color: white ;
+  color: white ;
+  text-color: blue ;
   border: 1px ;
   height: 9px ;
   width: 13px ;
