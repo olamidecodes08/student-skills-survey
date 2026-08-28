@@ -15,7 +15,7 @@ form {
  padding: 30px ;
 }
 input, select, textarea {
- width: 60% ;
+ width: 80% ;
  padding: 10px ;
  margin-bottom: 20px ;
  margin-top: 5px
@@ -69,7 +69,6 @@ width: 100%
  padding: 20px ;
  border-radius: 10px ;
   border: 1px ;
-  text-align: left ;
 }
 input[type="checkbox"], input[type="radio"] {
  width: auto ;
