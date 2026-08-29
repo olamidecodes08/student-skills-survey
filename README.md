@@ -1,4 +1,4 @@
-# Student SkillS Survey
+# Student Skills Survey
 A responsive student skills and career survey built with HTML and CSS.
 
 ## Features
